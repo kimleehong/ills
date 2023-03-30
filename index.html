@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>일신오토클레이브</title>
+
+  <!-- 테일윈드 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+    referrerpolicy="no-referrer" />
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- 스와이퍼 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- 폰트어썸 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- 폰트 -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- 로컬링크 -->
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+
+
+</head>
+
+<body>
+
+  <header class="top-bar">
+
+    <div class="con-1 flex mx-auto h-full justify-center">
+
+      <a href="#" class="logo flex items-center">
+        <img src="https://suflux.com/web/images/ko_logo.png" alt="로고">
+      </a>
+
+      <nav class="menu-box">
+        <ul class="flex h-full">
+          <li>
+            <a href="#" class="flex h-full items-center">회사소개</a>
+            <ul>
+              <li>
+                <a href="#">일신오토클레이브 소개</a>
+              </li>
+              <li>
+                <a href="#">ESG 경영</a>
+              </li>
+              <li>
+                <a href="#">CI 소개</a>
+              </li>
+              <li>
+                <a href="#">인증현황</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="flex h-full items-center">플랜트/엔지니어링</a>
+            <ul>
+              <li>
+                <a href="#">초임계 플랜트</a>
+              </li>
+              <li>
+                <a href="#">발전 플랜트</a>
+              </li>
+              <li>
+                <a href="#">압력용기 플랜트</a>
+              </li>
+              <li>
+                <a href="#">엔지니어링 분야</a>
+              </li>
+              <li>
+                <a href="#">화학 & 재료 플랜트</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="flex h-full items-center">제품소개</a>
+            <ul>
+              <li>
+                <a href="#">내가 찾는 제품</a>
+              </li>
+              <li>
+                <a href="#">가압오븐</a>
+              </li>
+              <li>
+                <a href="#">복합재성형 오토클레이브</a>
+              </li>
+              <li>
+                <a href="#">양생 오토클레이브</a>
+              </li>
+              <li>
+                <a href="#">고압 반응기</a>
+              </li>
+              <li>
+                <a href="#">교반기</a>
+              </li>
+              <li>
+                <a href="#">압력용기</a>
+              </li>
+              <li>
+                <a href="#">초임계</a>
+              </li>
+              <li>
+                <a href="#">프레스</a>
+              </li>
+              <li>
+                <a href="#">분산 및 혼합</a>
+              </li>
+              <li>
+                <a href="#">원자력 발전 설비</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="flex h-full items-center">RT-ROOM 대여</a>
+          </li>
+          <li>
+            <a href="#" class="flex h-full items-center">연구/개발</a>
+            <ul>
+              <li>
+                <a href="#">기술연구소 소개</a>
+              </li>
+              <li>
+                <a href="#">공정 테스트</a>
+              </li>
+              <li>
+                <a href="#">연구 기자재</a>
+              </li>
+              <li>
+                <a href="#">톨링 센터</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="flex h-full items-center">커뮤니티</a>
+            <ul>
+              <li>
+                <a href="#">공지사항</a>
+              </li>
+              <li>
+                <a href="#">납품 및 설치사례</a>
+              </li>
+              <li>
+                <a href="#">뉴스레터</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="flex h-full items-center">고객센터</a>
+            <ul>
+              <li>
+                <a href="#">온라인 문의</a>
+              </li>
+              <li>
+                <a href="#">다운로드</a>
+              </li>
+              <li>
+                <a href="#">인재채용</a>
+              </li>
+              <li>
+                <a href="#">사업장 소개</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="flex h-full items-center">MY</a>
+            <ul>
+              <li>
+                <a href="#">로그인</a>
+              </li>
+              <li>
+                <a href="#">회원가입</a>
+              </li>
+              <li>
+                <a href="#">나의 문의</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="con"></div>
+      </nav>
+
+      <div class="dom flex self-center gap-4">
+        <a href="#">로그인</a>
+        <a href="#">회원가입</a>
+      </div>
+
+      <ul class="bon">
+        <li class="flex h-full items-center">
+          <a href="#">
+            <i class="fa-solid fa-globe"></i>
+          </a>
+        </li>
+        <ul>
+          <li>
+            <a href="#">한국어</a>
+          </li>
+          <li>
+            <a href="#">English</a>
+          </li>
+        </ul>
+        <div></div>
+      </ul>
+
+    </div>
+
+  </header>
+
+  <section class="banner slide-1 con mx-auto overflow-hidden">
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/SLIDE.png"
+            alt="">
+          <a href="#" class="slide-details flex font-bold items-center justify-center">
+            <span>자세히 보기</span>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/SLIDE.png"
+            alt="">
+          <a href="#" class="slide-details flex font-bold items-center justify-center">
+            <span>자세히 보기</span>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/SLIDE.png"
+            alt="">
+          <a href="#" class="slide-details flex font-bold items-center justify-center">
+            <span>자세히 보기</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="banner__page flex font-bold justify-center">
+      <div class="swiper-pagination flex"></div>
+    </div>
+  </section>
+
+  <section class="co con mx-auto">
+
+    <div class="wrap con-3 mx-auto h-full flex">
+
+      <div class="text-box flex flex-col flex-1">
+        <div class="com">
+          Company
+        </div>
+        <div class="txt-xl flex flex-col">
+          <span>고객의 생각을 만들어드립니다.</span>
+          <span>We make your idea possible!</span>
+        </div>
+        <div class="txt-sm">
+          일신오토클레이브는 1993년 원자력 발전과 화력 발전 등에 필요한 압력용기 엔지니어링을 시작으로 오토클레이브, 초임계기술, 초고압분산기, 정수압프레스 등의 제품을 사업화 하는데 성공했습니다.
+          지속적인 연구 개발과 장비 투자를 통해 국내에서 최고의 기술력을 갖춘 회사로 성장했고 현재 고온•고압 분야의 글로벌 1위를 향해 매진하고 있습니다. 일신오토클레이브는 기술영업, 엔지니어링, 설계,
+          제작, 시운전, 사후관리 등의 전 과정을 일괄 수행함으로써 신속하고 정확한 서비스를 제공합니다.
+        </div>
+      </div>
+
+      <div class="co-slide-section flex-1">
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide sd-1">
+              <div class="img-box">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/intro/intro_slide_img_2.jpg"
+                  alt="">
+              </div>
+              <div class="txt-box flex flex-col">
+                <span class="txt-xl">Export</span>
+                <span class="txt-sm">아시아, 동남아시아, 유럽 등 각국에 활발히 수출</span>
+              </div>
+            </div>
+            <div class="swiper-slide sd-2">
+              <div class="img-box">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/intro/intro_slide_img_1.jpg"
+                  alt="">
+              </div>
+              <div class="txt-box flex flex-col">
+                <span class="txt-xl">
+                  High career
+                </span>
+                <span class="txt-sm">
+                  고온•고압 30년 역사의 기술을 보유
+                </span>
+              </div>
+            </div>
+            <div class="swiper-slide sd-3">
+              <div class="img-box">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/intro/intro_slide_img_3.jpg"
+                  alt="">
+              </div>
+              <div class="txt-box flex flex-col">
+                <span class="txt-xl">
+                  Safe future
+                </span>
+                <span class="txt-sm">
+                  안전한 작업환경과 믿을 수 있는 인재
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="sub flex">
+      <a href="#" class="co-in flex-1">
+        <div class="img-box">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/intro/plus1.svg"
+            alt="">
+        </div>
+        <div class="txt">
+          일신오토클레이브 회사소개
+        </div>
+      </a>
+      <a href="#" class="recruit flex-1">
+        <div class="img-box">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/intro/arrow1.svg"
+            alt="">
+        </div>
+        <div class="txt">
+          인재 채용
+        </div>
+      </a>
+      <a href="#" class="pdf flex-1">
+        <div class="img-box">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/intro/down1.svg"
+            alt="">
+        </div>
+        <div class="txt">
+          회사소개서 다운로드
+        </div>
+      </a>
+    </div>
+
+  </section>
+
+  <section class="product-intro con-3 mx-auto">
+    <div class="product-intro__title">
+      Product
+    </div>
+    <div class="tab_menu">
+      <ul class="tab flex">
+        <li class="tab_item active">가압오븐</a></li>
+        <li class="tab_item"><span>복합재성형</span>오토클레이브</li>
+        <li class="tab_item"><span>양생</span>오토클레이브</li>
+        <li class="tab_item">고압반응기</li>
+        <li class="tab_item">교반기</li>
+        <li class="tab_item">압력용기</li>
+        <li class="tab_item">초임계</li>
+        <li class="tab_item">프레스</li>
+        <li class="tab_item">분산 및 혼합</li>
+        <li class="tab_item"><span>원자력</span>발전설비</li>
+      </ul>
+      <div class="tab_inner_wrap">
+        <div class="tab_inner active">
+
+          <div class="second__slide__wrap con mx-auto">
+            <div class="second__slide con-3 mx-auto overflow-hidden">
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide flex flex-col">
+                    <div class="product-img">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/%ED%95%84%EB%A6%84%EA%B0%80%EC%95%95.png"
+                        alt="">
+                    </div>
+                    <div class="text-box">
+                      <div class="text-box__head">
+                        <div class="prod__title__1">
+                          필름접합용 가압오븐
+                        </div>
+                        <div class="prod__title__2">
+                          Pressure Curing Oven
+                        </div>
+                      </div>
+                      <div class="text-box__body">
+                        여러 장의 필름 접합이 필요한 적층 공정에 적용되며,
+                        필름 층간의 기포제거 등으로 층의 균일화를 통한 성능 향상
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide flex flex-col">
+                    <div class="product-img">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/%EB%B0%98%EB%8F%84%EC%B2%B4%20%EA%B0%80%EC%95%95.png"
+                        alt="">
+                    </div>
+                    <div class="text-box">
+                      <div class="text-box__head">
+                        <div class="prod__title__1">
+                          반도체 패키징용 가압오븐
+                        </div>
+                        <div class="prod__title__2">
+                          High temperature Autoclave
+                        </div>
+                      </div>
+                      <div class="text-box__body">
+                        에폭시 레진을 경화시키면서 동시에 기체를 이용하여 일정 압력으로 등방향 압축을 통해
+                        내부 기포 및 공극 등을 제거하는 설비로, 경화와 탈포 공정을 동시에 진행하여 공정 효율이 높음
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide flex flex-col">
+                    <div class="product-img">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/%EC%9C%A0%EB%A6%AC%EA%B0%80%EC%95%95.png"
+                        alt="">
+                    </div>
+                    <div class="text-box">
+                      <div class="text-box__head">
+                        <div class="prod__title__1">
+                          유리 접합용 가압오븐
+                        </div>
+                        <div class="prod__title__2">
+                          Glass Lamination Autoclave
+                        </div>
+                      </div>
+                      <div class="text-box__body">
+                        항온 상태를 유지하면서 등 방향으로 압력을 가해 균질화 및 치밀화를
+                        가질 수 있도록 한 설비
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide flex flex-col">
+                    <div class="product-img">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/%ED%95%84%EB%A6%84%EA%B0%80%EC%95%95.png"
+                        alt="">
+                    </div>
+                    <div class="text-box">
+                      <div class="text-box__head">
+                        <div class="prod__title__1">
+                          필름접합용 가압오븐
+                        </div>
+                        <div class="prod__title__2">
+                          Pressure Curing Oven
+                        </div>
+                      </div>
+                      <div class="text-box__body">
+                        여러 장의 필름 접합이 필요한 적층 공정에 적용되며,
+                        필름 층간의 기포제거 등으로 층의 균일화를 통한 성능 향상
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide flex flex-col">
+                    <div class="product-img">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/%ED%95%84%EB%A6%84%EA%B0%80%EC%95%95.png"
+                        alt="">
+                    </div>
+                    <div class="text-box">
+                      <div class="text-box__head">
+                        <div class="prod__title__1">
+                          필름접합용 가압오븐
+                        </div>
+                        <div class="prod__title__2">
+                          Pressure Curing Oven
+                        </div>
+                      </div>
+                      <div class="text-box__body">
+                        여러 장의 필름 접합이 필요한 적층 공정에 적용되며,
+                        필름 층간의 기포제거 등으로 층의 균일화를 통한 성능 향상
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide flex flex-col">
+                    <div class="product-img">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/%ED%95%84%EB%A6%84%EA%B0%80%EC%95%95.png"
+                        alt="">
+                    </div>
+                    <div class="text-box">
+                      <div class="text-box__head">
+                        <div class="prod__title__1">
+                          필름접합용 가압오븐
+                        </div>
+                        <div class="prod__title__2">
+                          Pressure Curing Oven
+                        </div>
+                      </div>
+                      <div class="text-box__body">
+                        여러 장의 필름 접합이 필요한 적층 공정에 적용되며,
+                        필름 층간의 기포제거 등으로 층의 균일화를 통한 성능 향상
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="tab_inner">탭 컨텐츠입니다2.</div>
+        <div class="tab_inner">탭 컨텐츠입니다3.</div>
+        <div class="tab_inner">탭 컨텐츠입니다4.</div>
+        <div class="tab_inner">탭 컨텐츠입니다5.</div>
+        <div class="tab_inner">탭 컨텐츠입니다6.</div>
+        <div class="tab_inner">탭 컨텐츠입니다7.</div>
+        <div class="tab_inner">탭 컨텐츠입니다8.</div>
+        <div class="tab_inner">탭 컨텐츠입니다9.</div>
+        <div class="tab_inner">탭 컨텐츠입니다10.</div>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    </nav>
+
+
+
+
+  </section>
+
+  <section class="news con-3 mx-auto">
+    <div class="news-box flex h-full">
+
+      <div class="head flex flex-col" data-aos="fade-right" data-aos-duration="1000">
+
+        <div class="txt-box-B flex flex-col">
+          <span>Now</span>
+          <span>We are</span>
+        </div>
+
+        <div class="txt-box-S">
+          <span>일신오토클레이브 소식을 확인해 보세요</span>
+        </div>
+
+        <div class="slect-box flex">
+          <a href="#">
+            View more
+          </a>
+        </div>
+
+      </div>
+
+      <div class="body flex flex-col" data-aos="fade-left" data-aos-duration="1000">
+        <div class="bundle flex-1">
+          <div class="notice">
+            <a href="#"><span>공지사항</span></a>
+          </div>
+          <div class="cont flex">
+            <div class="txt-box flex flex-col">
+              <div class="txt-box-b">
+                <a href="#">
+                  설날, 새해 복 많이 받으세요.
+                </a>
+              </div>
+              <div class="txt-box-s">
+                <a href="#">
+                  즐거운 설 명절을 맞아 소중한 분들과 따뜻한 정을 많이 나누며 즐거운 시간 보내시고
+                  가장에 사랑과 평안이 충만하시길 기원합니다.
+                </a>
+              </div>
+            </div>
+            <div class="img-box">
+              <img
+                src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/news_01.png"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <div class="bundle flex-1">
+          <div class="notice">
+            <a href="#"><span>공지사항</span></a>
+          </div>
+          <div class="cont flex">
+            <div class="txt-box flex flex-col">
+              <div class="txt-box-b">
+                <a href="#">
+                  2023년 새해 복 많이 받으세요.
+                </a>
+              </div>
+              <div class="txt-box-s">
+                <a href="#">
+                  안녕하세요 일신오토클레이브입니다. 내년에도 힘차게 성장하는 일신오토클레이브가 되겠습니다.
+                </a>
+              </div>
+            </div>
+            <div class="img-box">
+              <img
+                src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/news_02.png"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <div class="bundle flex-1">
+          <div class="notice">
+            <a href="#"><span>공지사항</span></a>
+          </div>
+          <div class="cont flex">
+            <div class="txt-box flex flex-col">
+              <div class="txt-box-b">
+                <a href="#">
+                  따뜻하고 행복한 크리스마스 보내시길 바랍니다.
+                </a>
+              </div>
+              <div class="txt-box-s">
+                <a href="#">
+                  안녕하세요 일신오토클레이브입니다. 언제나 고객 여러분의 따뜻한 관심과 성원, 진심으로 감사드립니다
+                  가족들과 따뜻하고 행복한 크리스마스 보내시기 바랍니다.
+                </a>
+              </div>
+            </div>
+            <div class="img-box">
+              <img
+                src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/news_03.png"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <div class="bundle flex-1">
+          <div class="notice">
+            <a href="#"><span>공지사항</span></a>
+          </div>
+          <div class="cont flex">
+            <div class="txt-box flex flex-col">
+              <div class="txt-box-b">
+                <a href="#">
+                  10월 10일 월요일은 한글날 관계로 휴무입니다.
+                </a>
+              </div>
+              <div class="txt-box-s">
+                <a href="#">
+                  10월 9일은 오늘의 한글을 창제해서 세상에 펴낸 것을 기념하고, 우리 글자 한글의 우수성을 기리기 위한 국경일인 한글날입니다.
+                  작년부터 관공서의 공휴일에 관한 규정 일부 개정령안이 처리됨에 따라 한글날도 대체공휴일 휴무가 적용되어, 시행되고 있습니다.
+                </a>
+              </div>
+            </div>
+            <div class="img-box">
+              <img
+                src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/news_04.png"
+                alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="subsidiary con-3 mx-auto" data-aos="zoom-in" data-aos-duration="1000"
+    data-aos-easing="ease-in-out-back" data-aos-offset="0">
+    <div class="subsidiary__text_box flex flex-col">
+      <span>ILSHIN Autoclave</span>
+      <span>Subsidiary</span>
+    </div>
+
+    <div class="subsidiary-slide con-2 mh-500 mx-auto">
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="img-box">
+              <img
+                src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/subsidiary05.png"
+                alt="">
+            </div>
+
+            <div class="detail">
+              <span class="detail-1">펌스터</span>
+              <span class="detail-2">고압 펌프, 부스터 및 압력 시험 설비 분야에서
+                국내 최고를 자랑합니다. 자체 설계, 제작, 조립 및 as를 일괄 수행하는 EPC 전문 업체이며,
+                꾸준한 연구개발에 최선의 노력을 다하고 있습니다.
+              </span>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="img-box">
+              <img
+                src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/subsidiary02.png"
+                alt="">
+            </div>
+            <div class="detail">
+              <span class="detail-1">하이플럭스</span>
+              <span class="detail-2">고온, 고압 관련 장비나 플랜트에 필요한
+                고압 밸브류, 피팅, 압력조절기 등을 제조 판매하는 기업입니다.
+              </span>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="img-box">
+              <img
+                src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/subsidiary03.png"
+                alt="">
+            </div>
+
+            <div class="detail">
+              <span class="detail-1">HiPPo</span>
+              <span class="detail-2">대한민국 대표 초고압처리 기술로 초고압
+                살균장비를 판매/제조하는 기업입니다.
+              </span>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="img-box">
+              <img
+                src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/subsidiary04.png"
+                alt="">
+            </div>
+
+            <div class="detail">
+              <span class="detail-1">한국공조엔지니어링</span>
+              <span class="detail-2">에어컨, 실외기 FAN 등 다양한 공조기를 개발하고
+                제작하는 기업입니다.
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="subsidiary__page flex font-bold justify-center">
+        <div class="swiper-pagination flex"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="widthus con-4 mx-auto">
+
+    <div class="wrap flex flex-col" data-aos="fade-down">
+
+      <div class="txt-box">
+        <div class="txt-xl">
+          Width us
+        </div>
+        <div class="txt-sm">
+          일신오토클레이브와 함께하는 기업을 확인해 보세요
+        </div>
+      </div>
+
+      <div class="width-box grid grid-cols-6 gap-8">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img1.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img2.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img3.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img4.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img5.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img6.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img7.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img8.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img9.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img10.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img11.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img12.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img13.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img14.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img15.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img16.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img17.jpg"
+          alt="">
+        <img
+          src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/widthus/partner_banner_img18.jpg"
+          alt="">
+      </div>
+
+      <div class="btn">
+        <a href="#partner" id="partner">
+          View more
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="partner__slide con-3 mx-auto overflow-hidden">
+
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/footer_partner01_img01.jpg"
+            alt="">
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/footer_partner01_img02.jpg"
+            alt="">
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/footer_partner01_img05.jpg"
+            alt="">
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/footer_partner01_img08.jpg"
+            alt="">
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/footer_partner01_img01.jpg"
+            alt="">
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/footer_partner01_img02.jpg"
+            alt="">
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/footer_partner01_img05.jpg"
+            alt="">
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/footer_partner01_img08.jpg"
+            alt="">
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/footer_partner01_img01.jpg"
+            alt="">
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/footer_partner01_img02.jpg"
+            alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="con mx-auto">
+    <img
+      src="https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/FOOTER.png"
+      alt="">
+  </footer>
+
+</body>
+
+</html>
