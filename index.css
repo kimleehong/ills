@@ -6,23 +6,23 @@ html>body {
 
 /* 라이브러리 */
 .con {
-  max-width: 1920px;
+  width: 1920px;
 }
 
 .con-1 {
-  max-width: 1900px;
+  width: 1900px;
 }
 
 .con-2 {
-  max-width: 500px;
+  width: 500px;
 }
 
 .con-3 {
-  max-width: 1440px;
+  width: 1440px;
 }
 
 .mh-500 {
-  max-height: 500px;
+  height: 500px;
 }
 
 /* logo */
@@ -282,7 +282,7 @@ html>body {
   height: 830px;
   color: #ffffff;
   background-image: url(https://cdn.jsdelivr.net/gh/kimleehong/sbs/%EC%9D%BC%EC%8B%A0-%EB%A6%AC%EB%89%B4%EC%96%BC/images/intro/network.png);
-  margin-top: 111px;
+  margin-top: 132px;
 }
 
 .co .wrap {}
@@ -877,6 +877,12 @@ html>body {
   font-weight: 500;
   font-size: 20px;
 }
+
+.widthus .wrap .btn:hover>a {
+  color: white;
+  background-color: #222222;
+}
+
 
 /* partner */
 .partner__slide {
