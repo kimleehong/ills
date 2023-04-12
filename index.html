@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>회사메인 | 가시안이며 어떠한 상업적 용도로도 쓰여지지 않습니다.</title>
 
+  <!-- 제이쿼리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   <!-- 테일윈드 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
     referrerpolicy="no-referrer" />
@@ -37,6 +40,23 @@
 </head>
 
 <body>
+  <div class="popup1" name="popup1">
+    <div class="popup-box-wrap">
+      <div class="popup-box">
+        <div class="content-area">
+        </div>
+        <div class="btn-area">
+          <div class="todays">
+            <input type="checkbox" id="today" name="today_close1">
+            <label for="today">오늘 하루 열지 않기</label>
+          </div>
+          <div class="closeBtn">X</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <header class="top-bar">
 
@@ -258,8 +278,7 @@
 
     <div class="wrap con-3 mx-auto h-full flex">
 
-      <div class="text-box flex flex-col flex-1"
-      data-aos="fade-right">
+      <div class="text-box flex flex-col flex-1" data-aos="fade-right">
         <div class="com">
           Company
         </div>
@@ -328,10 +347,7 @@
 
     </div>
 
-    <div class="sub flex"
-    data-aos="fade-up"
-    data-aos-offset="0"
-    data-aos-duration="1000">
+    <div class="sub flex" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1000">
       <a href="#" class="co-in flex-1">
         <div class="img-box">
           <img
